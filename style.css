@@ -1,0 +1,211 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #222;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    gap: 41px;
+    margin-left: 230px;
+}
+
+.top_menu {
+    padding-top: 26px;
+    padding-bottom: 20px;
+    margin-right: 230px;
+}
+
+.top_content {
+    display: flex;
+    background-color: #F1E4E6;
+    gap: 63px;
+}
+
+.group_10 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 290px;
+    margin-bottom: 361px;
+}
+
+.brand {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.luxery {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fashion {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer {
+    display: grid;
+    grid-template: repeat(2, 260px) / repeat(3, 360px);
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 65px;
+    gap: 30px;
+
+    justify-content: center;
+}
+
+.for_women {
+    display: flex;
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(images/Layer\ 1.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.p_w_s {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.p_w {
+    margin: 0;
+}
+
+.for_men {
+    display: flex;
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(images/Layer\ 2.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.for_kids {
+    display: flex;
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(images/Layer\ 3.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.accesories {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    max-height: 180px;
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(images/Layer\ 4.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pr_h1 {
+    margin: 0;
+}
+
+.pr_p {
+    margin: 6px 0 46px 0;
+}
+
+.cards {
+    display: grid;
+    grid-template: repeat(2, 581px) / repeat(3, 360px);
+    gap: 30px;
+}
+
+.card {}
+
+.title_price {
+    padding: 16px 24px;
+}
+
+.card_h1 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 25px 0 16px 0;
+}
+
+.card_p {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 0 16px 0;
+}
+
+.price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.card_2{
+    background-image: url(images/Rectangle\ 15\ copy\ \(5\).png);
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+}
+
+.pr_button{
+    width: 212px;
+    height: 48px;
+    border: 1px solid #FF6A6A;
+    background-color: #FFF;
+
+    color: #F26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
